@@ -43,6 +43,6 @@ public class mediaNextLevel{
 					System.out.println("O aluno "+nome+" foi aprovado com nota "+mediafinal+" \nCaso queira arredondar a mesma ficaria em : "+ Math.round((mediafinal)));		//Comando IF/ElSE para estabelecer se foi ou não aprovado.
 				}else{
 					System.out.println("O aluno "+nome+" foi reprovado com nota  "+mediafinal+" \nCaso queira arredondar a mesma ficaria em : "+ Math.round((mediafinal)));
-					System.out.println("\nO aluno terá que realizar uma avaliação final e sua nota terá de ser superior a  "+(mediafinal-10.0)*-1);
+					System.out.println("\nO aluno terá que realizar uma avaliação final e sua nota terá de ser superior ou igual a  "+(mediafinal-10.0)*-1);
 					
 }}}
